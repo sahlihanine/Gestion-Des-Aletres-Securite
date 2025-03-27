@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>interfaceTicket</class>
+ <widget class="QDialog" name="interfaceTicket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>540</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 15px; /* Taille de la police */
+    font-weight: bold; /* (Optionnel) Texte en gras */
+    color: white; /* (Optionnel) Couleur du texte */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ChatBot</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_chatbot">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>540</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 2px solid transparent; /* Bordure transparente */
+    border-radius: 25px; /* Rayon : 50% de la largeur/hauteur pour un cercle */
+    background-color: transparent; /* Couleur d'arrière-plan */
+    color: black; /* Couleur du texte */
+    width: 50px; /* Largeur fixe */
+    height: 50px; /* Hauteur fixe */
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/chatbot/chatbot.png</normaloff>:/chatbot/chatbot.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>250</width>
+     <height>250</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_profil">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>171</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Profil</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_ticket">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>171</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>New Ticket</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_tickets_list">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>330</y>
+     <width>171</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tickets' List</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_tickets_history">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>440</y>
+     <width>171</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History</string>
+   </property>
+  </widget>
+  <zorder>pb_chatbot</zorder>
+  <zorder>label</zorder>
+  <zorder>pb_profil</zorder>
+  <zorder>pb_ticket</zorder>
+  <zorder>pb_tickets_list</zorder>
+  <zorder>pb_tickets_history</zorder>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

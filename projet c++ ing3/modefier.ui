@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modefier</class>
+ <widget class="QDialog" name="modefier">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pb_valider">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>590</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VALIDATE</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_pending">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>360</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PENDING</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>530</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MEDIUM</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_progress">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>390</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IN PROGRESS</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_description">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>391</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>500</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_statue">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>330</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>STATUE :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_titre">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_type">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>470</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>TYPE :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_cancel">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>630</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_solved">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>420</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SOLVED</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>560</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CRITICAL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 14px;          /* Augmenter la taille de la police */
+}</string>
+   </property>
+   <property name="text">
+    <string>TITLE :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_description">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>DESCRIPTION :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

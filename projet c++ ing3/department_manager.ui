@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>department_manager</class>
+ <widget class="QDialog" name="department_manager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>717</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pb_employer">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>350</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Employers</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>260</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Security Agents</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_ticket">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>440</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tickets History</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>New Departement</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>170</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Department List </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

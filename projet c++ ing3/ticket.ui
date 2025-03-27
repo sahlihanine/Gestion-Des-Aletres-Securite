@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ticket</class>
+ <widget class="QDialog" name="ticket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>160</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>TITLE :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_titre">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error_label_type">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>570</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error_label_description">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>400</y>
+     <width>391</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>540</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CRITICAL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error_label_title">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>230</y>
+     <width>391</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>510</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MEDIUM</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_description">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>280</y>
+     <width>391</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="etoile2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_type">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>450</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>TYPE :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_add">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>620</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_description">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>DESCRIPTION :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="etoile5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>450</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_type1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>480</y>
+     <width>97</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="etoile1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

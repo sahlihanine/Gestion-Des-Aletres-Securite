@@ -1,0 +1,835 @@
+/******************************************** page admin *****************************************************/
+/* Appliquer l'image en fond pour le QDialog departement_manager */
+QMainWindow {
+    background-image: url(C:/Users/SAHLI/OneDrive/Bureau/last_oneHanin/p3.jpg); /* Remplacez ce chemin par votre image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Étend l'image pour couvrir toute la fenêtre */
+}
+
+/* Style des QPushButton uniquement dans le QDialog departement_manager */
+QMainWindow QPushButton {
+    background-color: #3a6cb3; /* Bleu clair pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure plus foncée */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QMainWindow QPushButton:hover {
+    background-color: #5c8ed9; /* Couleur plus claire au survol */
+    border: 2px solid #3a6cb3; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QMainWindow QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QGroupBox dans le QDialog departement_manager */
+QMainWindow QGroupBox {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+    border: 2px solid white; /* Bordure blanche */
+    border-radius: 10px; /* Coins arrondis pour le groupe de boîte */
+    padding: 10px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 14px; /* Taille de police */
+    color: white; /* Texte en blanc */
+}
+
+/* Style pour les titres des QGroupBox */
+QMainWindow QGroupBox::title {
+    color: white; /* Titre en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 16px; /* Taille de police du titre */
+}
+
+/* Style pour les QLabel dans le QDialog departement_manager */
+QMainWindow QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+
+/**************************************************************************************************************/
+
+/* ********************************************* 1 er page *****************************************************/
+QDialog#page_principale {
+    background-image: url(C:/Users/SAHLI/OneDrive/Bureau/last_oneHanin/yy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste l'image pour couvrir tout le QDialog */
+}
+
+/* Style des QPushButton uniquement dans le QDialog page_principale */
+QDialog#page_principale QPushButton {
+    background-color: #3498db; /* Bleu clair */
+    border: 2px solid #2980b9; /* Bordure bleu foncé */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#page_principale QPushButton:hover {
+    background-color: #5dade2; /* Couleur plus claire au survol */
+    border: 2px solid #3498db; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#page_principale QPushButton:pressed {
+    background-color: #2980b9; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1f618d; /* Bordure encore plus foncée */
+}
+/***********************************************************************************************************************/
+
+/************************************************* page login **********************************************************/
+/* Appliquer un fond bleu foncé légèrement plus clair pour QDialog login */
+QDialog#login {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+}
+
+/* Style des QPushButton uniquement dans le QDialog login */
+QDialog#login QPushButton {
+    background-color: #2a4e8c; /* Bleu foncé pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure un peu plus claire */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#login QPushButton:hover {
+    background-color: #4e74c5; /* Couleur plus claire au survol */
+    border: 2px solid #2a4e8c; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#login QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QGroupBox dans le QDialog login */
+QDialog#login QGroupBox {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+    border: 2px solid white; /* Bordure blanche */
+    border-radius: 10px; /* Coins arrondis pour le groupe de boîte */
+    padding: 10px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 14px; /* Taille de police */
+    color: white; /* Texte en blanc */
+}
+
+/* Style pour les titres des QGroupBox */
+QDialog#login QGroupBox::title {
+    color: white; /* Titre en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 16px; /* Taille de police du titre */
+}
+
+/* Style pour les QLabel dans le QDialog login */
+QDialog#login QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/********************************************************************************************************/
+
+/*******************************************  pagee admin ************************************************/
+
+/* Appliquer l'image en fond pour le QDialog departement_manager */
+QDialog#department_manager {
+    background-image: url(C:/Users/SAHLI/OneDrive/Bureau/last_oneHanin/p3.jpg); /* Remplacez ce chemin par votre image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Étend l'image pour couvrir toute la fenêtre */
+}
+
+/* Style des QPushButton uniquement dans le QDialog departement_manager */
+QDialog#department_manager QPushButton {
+    background-color: #3a6cb3; /* Bleu clair pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure plus foncée */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#department_manager QPushButton:hover {
+    background-color: #5c8ed9; /* Couleur plus claire au survol */
+    border: 2px solid #3a6cb3; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#department_manager QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QGroupBox dans le QDialog departement_manager */
+QDialog#department_manager QGroupBox {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+    border: 2px solid white; /* Bordure blanche */
+    border-radius: 10px; /* Coins arrondis pour le groupe de boîte */
+    padding: 10px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 14px; /* Taille de police */
+    color: white; /* Texte en blanc */
+}
+
+/* Style pour les titres des QGroupBox */
+QDialog#department_manager QGroupBox::title {
+    color: white; /* Titre en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 16px; /* Taille de police du titre */
+}
+
+/* Style pour les QLabel dans le QDialog departement_manager */
+QDialog#department_manager QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/********************************************************************************************************/
+
+/**************************************ticket************************************************/
+
+/* Appliquer un fond bleu foncé légèrement plus clair pour QDialog ticket */
+QDialog#ticket {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+    background-image: url(C:/Users/SAHLI/OneDrive/Bureau/last_oneHanin/alerte.png); /* Remplacez ce chemin par votre image */
+    background-position: 90% 10%;
+    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+}
+
+QDialog#ticket QMessageBox QLabel {
+    color: black;  /* Texte noir pour les QLabel dans le MessageBox */
+}
+
+/* Style des QPushButton uniquement dans le QDialog ticket */
+QDialog#ticket QPushButton {
+    background-color: #2a4e8c; /* Bleu foncé pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure un peu plus claire */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#ticket QPushButton:hover {
+    background-color: #4e74c5; /* Couleur plus claire au survol */
+    border: 2px solid #2a4e8c; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#ticket QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QLineEdit dans le QDialog ticket */
+QDialog#ticket QLineEdit {
+    background-color: #ffffff; /* Fond blanc pour les champs de texte */
+    border: 2px solid #1e3b74; /* Bordure bleu foncé */
+    padding: 5px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 0px; /* Coins carrés (pas arrondis) */
+}
+
+/* Style pour les QLabel dans le QDialog ticket */
+QDialog#ticket QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/********************************************************************************************************/
+
+/************************************************* details **********************************************/
+
+/* Appliquer la même couleur de fond bleu foncé pour QDialog details */
+QDialog#details {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair, comme pour ticket */
+}
+
+/* Style pour les QLabel dans le QDialog details */
+QDialog#details QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style des QPushButton uniquement dans le QDialog details */
+QDialog#details QPushButton {
+    background-color: #2a4e8c; /* Bleu foncé pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure un peu plus claire */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#details QPushButton:hover {
+    background-color: #4e74c5; /* Couleur plus claire au survol */
+    border: 2px solid #2a4e8c; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#details QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+
+/*********************************************************************************************************/
+
+/***************************************** profil ********************************************************/
+
+/* Appliquer la même couleur de fond bleu foncé pour QDialog details */
+QDialog#profil {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair, comme pour ticket */
+}
+
+/* Style pour les QLabel dans le QDialog details */
+QDialog#profil QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+
+/*********************************************************************************************************/
+
+/******************************************** chatbot ****************************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog chatbot */
+QDialog#chatbot {
+    background-color: #1e3b74; /* Bleu foncé */
+}
+
+/* Style pour les QLabel dans le QDialog chatbot */
+QDialog#chatbot QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style des QPushButton uniquement dans le QDialog chatbot */
+QDialog#chatbot QPushButton {
+    background-color: #2a4e8c; /* Bleu foncé pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure légèrement plus claire */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) pour les boutons */
+QDialog#chatbot QPushButton:hover {
+    background-color: #4e74c5; /* Couleur plus claire au survol */
+    border: 2px solid #2a4e8c; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) pour les boutons */
+QDialog#chatbot QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure plus foncée */
+}
+
+/*******************************************************************************************************/
+
+/*************************************************  interface ticket *************************************/
+
+/* Appliquer l'image en fond pour le QDialog departement_manager */
+QDialog#interfaceTicket {
+    background-image: url(C:/Users/SAHLI/OneDrive/Bureau/last_oneHanin/t.jpg); /* Remplacez ce chemin par votre image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Étend l'image pour couvrir toute la fenêtre */
+}
+
+/* Style des QPushButton uniquement dans le QDialog departement_manager */
+QDialog#interfaceTicket QPushButton {
+    background-color: #3a6cb3; /* Bleu clair pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure plus foncée */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#interfaceTicket QPushButton:hover {
+    background-color: #5c8ed9; /* Couleur plus claire au survol */
+    border: 2px solid #3a6cb3; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#interfaceTicket QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QGroupBox dans le QDialog departement_manager */
+QDialog#interfaceTicket QGroupBox {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+    border: 2px solid white; /* Bordure blanche */
+    border-radius: 10px; /* Coins arrondis pour le groupe de boîte */
+    padding: 10px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 14px; /* Taille de police */
+    color: white; /* Texte en blanc */
+}
+
+/* Style pour les titres des QGroupBox */
+QDialog#interfaceTicket QGroupBox::title {
+    color: white; /* Titre en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 16px; /* Taille de police du titre */
+}
+
+/* Style pour les QLabel dans le QDialog departement_manager */
+QDialog#interfaceTicket QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/**********************************************************************************************************/
+
+/*************************************************  modefier **********************************************/
+
+/* Appliquer un fond bleu foncé légèrement plus clair pour QDialog ticket */
+QDialog#modefier {
+    background-color: #1e3b74; /* Bleu foncé légèrement plus clair */
+}
+
+QDialog#modefier QMessageBox QLabel {
+    color: black;  /* Texte noir pour les QLabel dans le MessageBox */
+}
+
+/* Style des QPushButton uniquement dans le QDialog ticket */
+QDialog#modefier QPushButton {
+    background-color: #2a4e8c; /* Bleu foncé pour les boutons */
+    border: 2px solid #1e3b74; /* Bordure un peu plus claire */
+    border-radius: 10px; /* Coins arrondis */
+    color: white; /* Texte en blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+/* Effet de survol (hover) */
+QDialog#modefier QPushButton:hover {
+    background-color: #4e74c5; /* Couleur plus claire au survol */
+    border: 2px solid #2a4e8c; /* Bordure plus claire */
+}
+
+/* Effet de clic (pressed) */
+QDialog#modefier QPushButton:pressed {
+    background-color: #2a4e8c; /* Couleur plus foncée lorsqu'on clique */
+    border: 2px solid #1e3b74; /* Bordure encore plus foncée */
+}
+
+/* Style pour QLineEdit dans le QDialog ticket */
+QDialog#modefier QLineEdit {
+    background-color: #ffffff; /* Fond blanc pour les champs de texte */
+    border: 2px solid #1e3b74; /* Bordure bleu foncé */
+    padding: 5px; /* Espacement interne */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 0px; /* Coins carrés (pas arrondis) */
+}
+
+/* Style pour les QLabel dans le QDialog ticket */
+QDialog#modefier QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/**********************************************************************************************************/
+
+/*************************************************  ticket history **********************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog ticket_history */
+QDialog#ticket_history {
+    background-color: #1e3b74; /* Bleu foncé */
+}
+
+/* Style pour les QLabel dans le QDialog ticket_history */
+QDialog#ticket_history QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style pour les QLineEdit dans le QDialog ticket_history */
+QDialog#ticket_history QLineEdit {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les QComboBox dans le QDialog ticket_history */
+QDialog#ticket_history QComboBox {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Effet de focus pour QLineEdit et QComboBox */
+QDialog#ticket_history QLineEdit:focus, QDialog#ticket_history QComboBox:focus {
+    border: 1px solid #2a4e8c; /* Bordure bleue foncée lorsqu'en focus */
+    background-color: #ffffff; /* Changer la couleur de fond au focus */
+}
+
+/* Style pour QTableWidget dans le QDialog ticket_history */
+QDialog#ticket_history QTableWidget {
+    background-color: #ffffff; /* Fond blanc pour la table */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    gridline-color: #ccc; /* Couleur des lignes de grille */
+}
+
+/* Style pour les en-têtes de colonne dans QTableWidget */
+QDialog#ticket_history QTableWidget QHeaderView::section {
+    background-color: #2a4e8c; /* Fond bleu foncé pour les en-têtes */
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 14px; /* Taille de police */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les lignes sélectionnées dans QTableWidget */
+QDialog#ticket_history QTableWidget::item:selected {
+    background-color: #4e74c5; /* Fond plus clair pour les éléments sélectionnés */
+    color: white; /* Texte en blanc pour les éléments sélectionnés */
+}
+
+
+/**********************************************************************************************************/
+
+/********************************************* liste ticket ************************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog listtickets */
+QDialog#listTickets {
+    background-color: #1e3b74; /* Bleu foncé */
+}
+
+QDialog#listTickets QMessageBox QLabel {
+    color: black;  /* Texte noir pour les QLabel dans le MessageBox */
+}
+
+/* Style pour les QLabel dans le QDialog listtickets */
+QDialog#listTickets QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style pour les QLineEdit dans le QDialog listtickets */
+QDialog#listTickets QLineEdit {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les QComboBox dans le QDialog listtickets */
+QDialog#listTickets QComboBox {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Effet de focus pour QLineEdit et QComboBox */
+QDialog#listTickets QLineEdit:focus, QDialog#listTickets QComboBox:focus {
+    border: 1px solid #2a4e8c; /* Bordure bleue foncée lorsqu'en focus */
+    background-color: #ffffff; /* Changer la couleur de fond au focus */
+}
+
+/* Style pour QTableWidget dans le QDialog listtickets */
+QDialog#listTickets QTableWidget {
+    background-color: #ffffff; /* Fond blanc pour la table */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    gridline-color: #ccc; /* Couleur des lignes de grille */
+}
+
+/* Style pour les en-têtes de colonne dans QTableWidget */
+QDialog#listTickets QTableWidget QHeaderView::section {
+    background-color: #2a4e8c; /* Fond bleu foncé pour les en-têtes */
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 14px; /* Taille de police */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les lignes sélectionnées dans QTableWidget */
+QDialog#listTickets QTableWidget::item:selected {
+    background-color: #4e74c5; /* Fond plus clair pour les éléments sélectionnés */
+    color: white; /* Texte en blanc pour les éléments sélectionnés */
+}
+
+
+
+/**********************************************************************************************************/
+
+
+/*************************************************  department list **************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog listtickets */
+QDialog#department_list {
+    background-color: #1e3b74; /* Bleu foncé */
+}
+
+/* Style pour les QLabel dans le QDialog listtickets */
+QDialog#department_list QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style pour les QLineEdit dans le QDialog listtickets */
+QDialog#department_list QLineEdit {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les QComboBox dans le QDialog listtickets */
+QDialog#department_list QComboBox {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Effet de focus pour QLineEdit et QComboBox */
+QDialog#department_list QLineEdit:focus, QDialog#department_list QComboBox:focus {
+    border: 1px solid #2a4e8c; /* Bordure bleue foncée lorsqu'en focus */
+    background-color: #ffffff; /* Changer la couleur de fond au focus */
+}
+
+/* Style pour QTableWidget dans le QDialog listtickets */
+QDialog#department_list QTableWidget {
+    background-color: #ffffff; /* Fond blanc pour la table */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    gridline-color: #ccc; /* Couleur des lignes de grille */
+}
+
+/* Style pour les en-têtes de colonne dans QTableWidget */
+QDialog#department_list QTableWidget QHeaderView::section {
+    background-color: #2a4e8c; /* Fond bleu foncé pour les en-têtes */
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 14px; /* Taille de police */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les lignes sélectionnées dans QTableWidget */
+QDialog#department_list QTableWidget::item:selected {
+    background-color: #4e74c5; /* Fond plus clair pour les éléments sélectionnés */
+    color: white; /* Texte en blanc pour les éléments sélectionnés */
+}
+
+/* Style pour les boutons dans le QDialog listtickets */
+QDialog#department_list button {
+    background-color: transparent !important; /* Fond transparent pour les boutons */
+    border: 2px solid #2a4e8c !important; /* Bordure bleue foncée */
+    color: white !important; /* Texte blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif !important; /* Police moderne */
+    font-size: 14px !important; /* Taille de police */
+    border-radius: 5px !important; /* Coins légèrement arrondis */
+    padding: 5px 10px !important; /* Espacement interne */
+    cursor: pointer !important; /* Curseur de type "main" */
+}
+
+/* Effet de survol pour les boutons */
+QDialog#department_list button:hover {
+    background-color: #2a4e8c !important; /* Fond bleu foncé au survol */
+    border-color: #1a3d6f !important; /* Bordure bleue plus foncée */
+    color: white !important; /* Texte toujours blanc */
+}
+
+
+
+/*********************************************************************************************************/
+
+/*************************************************** historique ******************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog historique */
+QDialog#historique {
+
+}
+
+QDialog#historique QMessageBox QLabel {
+    color: black;  /* Texte noir pour les QLabel dans le MessageBox */
+}
+
+
+/* Style pour les QLabel dans le QDialog historique */
+QDialog#historique QLabel {
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    font-size: 14px; /* Taille de police */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+}
+
+/* Style pour les QLineEdit dans le QDialog historique */
+QDialog#historique QLineEdit {
+    background-color: #f1f1f1; /* Gris très clair pour le fond */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé pour un bon contraste */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les QPushButton dans le QDialog historique */
+QDialog#historique QPushButton {
+    background-color: #1e3b74; /* Bleu foncé */
+    border: 2px solid #2a4e8c !important; /* Bordure bleue foncée */
+    color: white !important; /* Texte blanc */
+    font-family: 'Segoe UI', Tahoma, sans-serif !important; /* Police moderne */
+    font-size: 14px !important; /* Taille de police */
+    border-radius: 5px !important; /* Coins légèrement arrondis */
+    padding: 5px 10px !important; /* Espacement interne */
+    cursor: pointer !important; /* Curseur de type "main" */
+}
+
+/* Effet de survol pour les QPushButton */
+QDialog#historique QPushButton:hover {
+    background-color: #2a4e8c !important; /* Fond bleu foncé au survol */
+    border-color: #1a3d6f !important; /* Bordure bleue plus foncée */
+    color: white !important; /* Texte toujours blanc */
+}
+
+/* Style pour le QTableView dans le QDialog historique */
+QDialog#historique QTableView {
+    background-color: #ffffff; /* Fond blanc pour le tableau */
+    border: 1px solid #ccc; /* Bordure légère */
+    color: #333; /* Texte gris foncé */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne */
+    font-size: 14px; /* Taille de police */
+    gridline-color: #ccc; /* Couleur des lignes de grille */
+}
+
+/* Style pour les en-têtes de colonne dans QTableView */
+QDialog#historique QTableView QHeaderView::section {
+    background-color: #2a4e8c; /* Fond bleu foncé pour les en-têtes */
+    color: white; /* Texte en blanc */
+    font-weight: bold; /* Titre en gras */
+    font-size: 14px; /* Taille de police */
+    padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les lignes sélectionnées dans QTableView */
+QDialog#historique QTableView::item:selected {
+    background-color: #4e74c5; /* Fond plus clair pour les éléments sélectionnés */
+    color: white; /* Texte en blanc pour les éléments sélectionnés */
+}
+
+
+/*********************************************************************************************************/
+
+/******************************************** interface employer *****************************************************/
+
+/* Appliquer la couleur de fond bleu foncé pour QDialog historique */
+QDialog#interfaceEmployer {
+
+}
+
+QDialog#interfaceEmployer QMessageBox QLabel {
+    color: black;  /* Texte noir pour les QLabel dans le MessageBox */
+}
+
+/*************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+

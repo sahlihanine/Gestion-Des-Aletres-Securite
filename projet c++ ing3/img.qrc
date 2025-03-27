@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/chatbot">
+        <file>chatbot.png</file>
+    </qresource>
+</RCC>

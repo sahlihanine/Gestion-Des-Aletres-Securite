@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>department_list</class>
+ <widget class="QDialog" name="department_list">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* Stylisation du QGroupBox */
+QGroupBox {
+    border: 2px solid #4CAF50; /* Bordure verte */
+    border-radius: 5px;
+    margin-top: 10px; /* Décale le titre */
+    font: bold 12px &quot;Segoe UI&quot;;
+    color: #4CAF50; /* Couleur du texte */
+    background-color: #f9f9f9; /* Arrière-plan clair */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center; /* Position du titre */
+    padding: 0 10px; /* Espacement autour du texte */
+    color: #333; /* Couleur du texte du titre */
+    background-color: #FFFFFF;
+}
+
+/* Stylisation des QPushButton */
+QPushButton {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    border: 1px solid #388E3C; /* Bordure verte foncée */
+    border-radius: 5px;
+    padding: 6px 12px;
+    font: bold 10px &quot;Segoe UI&quot;;
+    min-width: 70px;
+}
+
+QPushButton:hover {
+    background-color: #45A049; /* Vert plus clair au survol */
+    border: 1px solid #2E7D32;
+}
+
+QPushButton:pressed {
+    background-color: #388E3C; /* Vert foncé quand cliqué */
+    border: 1px solid #1B5E20;
+}
+</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>271</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
