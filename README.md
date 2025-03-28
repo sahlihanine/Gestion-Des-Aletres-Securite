@@ -22,3 +22,8 @@ L’application est structurée en **trois parties** :
 ### 🎯 Objectif  
 Optimiser la gestion des incidents de cybersécurité en entreprise en réduisant le temps de réponse et en améliorant la traçabilité des alertes.  
 
+### 📦 Installation  
+1. **Cloner le projet**  
+   ```bash
+   git clone https://github.com/ton-profil/nom-du-repo.git
+   cd nom-du-repo
